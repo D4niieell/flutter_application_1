@@ -3,6 +3,7 @@ import 'package:flutter_application_1/screens/widgets_conteudo.dart';
 import 'package:flutter_application_1/screens/widgets_layout.dart';
 import 'package:flutter_application_1/models/clima.dart';
 import 'package:flutter_application_1/screens/verClima.dart';
+import 'package:flutter_application_1/screens/formulario.dart';
 
 void main() {
   runApp(const MyApp());
@@ -85,6 +86,13 @@ class ListContents extends StatelessWidget {
           chanceChuva: 40,
         ),
       ),
+    ),
+
+    CatalogoItem(
+      titulo: 'Formulário',
+      icone: Icons.login,
+      descricao: 'Login e cadastro com validação',
+      destino: const Formulario(),
     ),
   ];
 
