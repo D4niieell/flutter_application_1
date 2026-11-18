@@ -1,3 +1,5 @@
+// clima.dart
+
 // Declara a classe "Clima", que representa os dados climáticos de uma cidade
 class Clima {
   // Nome da cidade; "final" significa que o valor não pode ser alterado após a criação do objeto

@@ -1,3 +1,5 @@
+// titulo_secao.dart
+
 import 'package:flutter/material.dart';
 
 class TituloSecao extends StatelessWidget {

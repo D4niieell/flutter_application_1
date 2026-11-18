@@ -1,3 +1,5 @@
+// verClima.dart
+
 import 'package:flutter_application_1/widgets/titulo_secao.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/models/clima.dart';
